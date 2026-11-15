@@ -7,7 +7,7 @@ tags: ['software-development', "Solutionist", "AI", "DevFest", "career", "person
 
 *This is an elaborated version of my talk at Google Developer Group Chennai's DevFest2025, where I shared my journey from rock bottom to becoming an Android Developer at Zoho and how the "Solutionist Mindset" can help us thrive in the age of AI.*
 
-![Speaking at the Platform](/img/devfest_2025/speaking-at-the-platform-01.JPG)
+{{< responsive-image src="/img/devfest_2025/optimized/speaking-at-the-platform" alt="Speaking at the Platform" >}}
 *Presenting the Solutionist Mindset on stage*
 
 <script defer class="speakerdeck-embed" data-id="ae22be07dca842408af4c8ec3fd4b234" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>
@@ -688,16 +688,16 @@ Here are some moments from DevFest2025:
 ![Speaking at DevFest2025](/img/devfest_2025/talking-at-the-event.jpeg)
 *Sharing the Solutionist Mindset with the DevFest2025 community*
 
-![Speaking at the Platform](/img/devfest_2025/speaking-at-the-platform-01.JPG)
+{{< responsive-image src="/img/devfest_2025/optimized/speaking-at-the-platform" alt="Speaking at the Platform" >}}
 *Presenting the Solutionist Mindset on stage*
 
-![Speaking at the Stage](/img/devfest_2025/speaking-at-the-stage.JPG)
+{{< responsive-image src="/img/devfest_2025/optimized/speaking-at-the-stage" alt="Speaking at the Stage" >}}
 *Engaging with the audience during the talk*
 
-![DevFest 2025 Moment](/img/devfest_2025/DevFest%2025%20(1).JPG)
+{{< responsive-image src="/img/devfest_2025/optimized/devfest-moment" alt="DevFest 2025 Moment" >}}
 *A memorable moment from DevFest2025*
 
-![All the Volunteers](/img/devfest_2025/DevFest%2025%20SEP%200461.-all-the%20voluntters-who-made-it-possible.JPG)
+{{< responsive-image src="/img/devfest_2025/optimized/volunteers" alt="All the Volunteers" >}}
 *All the amazing volunteers who made DevFest2025 possible - couldn't have done it without you!*
 
 ![Speaker Goodies](/img/devfest_2025/speaker-goddies.jpeg)

@@ -2,10 +2,11 @@
 date: '2025-05-25T08:18:39+05:30'
 title: 'Mastering Raw Queries in Room: Why, When & When Not to Use Them (#OF06)'
 tags: ["Room","Android","Offline-First-App"]
+aliases: ["/posts/upgrading-your-app-to-offline-first-with-room-part-6/"]
 categories: ["Android","KMP"]
 ---
 
-In the [previous article](https://md.eknath.dev/posts/upgrading-your-app-to-offline-first-with-room-part-5/), we explored the power and flexibility of DAOs with Room’s built-in query annotations. But what if your query needs don’t fit into Room’s constraints? Enter @RawQuery – the most flexible and dangerous tool in the Room arsenal.
+In the [previous article]({{< relref "/posts/offline-first-series/upgrading-your-app-to-offline-first-with-room-part-5/" >}}), we explored the power and flexibility of DAOs with Room’s built-in query annotations. But what if your query needs don’t fit into Room’s constraints? Enter @RawQuery – the most flexible and dangerous tool in the Room arsenal.
 
 Let’s dive into what `@RawQuery` is, when it shines and shuns.
 
@@ -139,7 +140,5 @@ Feel free to connect and share your stories:
 🌍 **[Website](https://eknath.dev)**  
 💫 **[LinkedIn-Post for comments and feedbacks](https://www.linkedin.com/posts/eganathan_offlinefirstandroid-offlinefirst-android-activity-7294912159627546624-TG77?utm_source=share&utm_medium=member_desktop&rcm=ACoAABYcOpgBgvDfy-0uUjfX0HTNqzzLfKZQAQU)** 
 
-🔖 [Previous Article in this Series](https://md.eknath.dev/posts/upgrading-your-app-to-offline-first-with-room-part-5/)
+🔖 [Previous Article in this Series]({{< relref "/posts/offline-first-series/upgrading-your-app-to-offline-first-with-room-part-5/" >}})
 🚀 **Stay tuned for Part 7!** 🚀 
-
-<!-- 🔖 [Next Article in this Series](https://md.eknath.dev/posts/upgrading-your-app-to-offline-first-with-room-part-7/) -->

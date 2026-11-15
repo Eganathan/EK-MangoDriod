@@ -1,0 +1,6 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" -}}
+<img src="{{ printf "%s-1280.webp" $src | relURL }}"
+  srcset="{{ printf "%s-640.webp" $src | relURL }} 640w, {{ printf "%s-1280.webp" $src | relURL }} 1280w, {{ printf "%s-1920.webp" $src | relURL }} 1920w"
+  sizes="(max-width: 768px) 100vw, 720px"
+  width="1920" height="1280" alt="{{ $alt }}" loading="lazy" decoding="async">

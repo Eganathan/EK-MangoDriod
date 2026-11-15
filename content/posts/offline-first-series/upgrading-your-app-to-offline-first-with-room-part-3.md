@@ -3,11 +3,12 @@ date: '2025-02-22T11:23:17+05:30'
 draft: false
 title: 'Key Components of Room & Manually Creating A Database Instance(#OF03)'
 tags: ["Room","Android","Offline-First-App"]
+aliases: ["/posts/upgrading-your-app-to-offline-first-with-room-part-3/"]
 categories: ["Android","KMP"]
 ---
 ## 👋 Intro
 
-On the [previous article](https://md.eknath.dev/posts/upgrading-your-app-to-offline-first-with-room-part-2/) we have set-up the Room dependencies and plugins, Now lets get into the primary key components of a room library.
+On the [previous article]({{< relref "/posts/offline-first-series/upgrading-your-app-to-offline-first-with-room-part-2/" >}}) we have set-up the Room dependencies and plugins, Now lets get into the primary key components of a room library.
 
 There are three important components: **Entity**, **DAO**'s, and **Database**.  
 
@@ -168,7 +169,7 @@ Feel free to connect with me on:
 🌍 **[Website](https://eknath.dev)** 
 💫 **[LinkedIn-Post for comments and feedbacks](https://www.linkedin.com/posts/eganathan_offlinefirstandroid-offlinefirst-android-activity-7294912159627546624-TG77?utm_source=share&utm_medium=member_desktop&rcm=ACoAABYcOpgBgvDfy-0uUjfX0HTNqzzLfKZQAQU)** 
 
-🔖 [Previous Article in this Series](https://md.eknath.dev/posts/upgrading-your-app-to-offline-first-with-room-part-2/)      
+🔖 [Previous Article in this Series]({{< relref "/posts/offline-first-series/upgrading-your-app-to-offline-first-with-room-part-2/" >}})
 
 
-🔖 [Next Article in this Series](https://md.eknath.dev/posts/upgrading-your-app-to-offline-first-with-room-part-4/)
+🔖 [Next Article in this Series]({{< relref "/posts/offline-first-series/upgrading-your-app-to-offline-first-with-room-part-4/" >}})

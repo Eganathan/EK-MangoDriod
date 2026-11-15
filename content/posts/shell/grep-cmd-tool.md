@@ -4,7 +4,7 @@ title: 'Mastering Grep: Your Guide to Efficient Text Searching'
 categories: ["Bash", "Scripting", "Command Line"]
 ---
 
-In the world of the command line, `grep` is a tool you'll find indispensable. It stands for "global regular expression print," and it's your go-to for searching text within files. Whether you're a developer, a system administrator, or just someone who loves the terminal, mastering `grep` will significantly boost your productivity. This article, inspired by the style of my [Basic Bash Commands](./basic-bash-commands.md) reference, will guide you through the essentials and advanced uses of `grep`.
+In the world of the command line, `grep` is a tool you'll find indispensable. It stands for "global regular expression print," and it's your go-to for searching text within files. Whether you're a developer, a system administrator, or just someone who loves the terminal, mastering `grep` will significantly boost your productivity. This article, inspired by the style of my [Basic Bash Commands]({{< relref "/posts/shell/basic-bash-commands" >}}) reference, will guide you through the essentials and advanced uses of `grep`.
 
 ## What is `grep`?
 

@@ -3,10 +3,11 @@ date: '2025-03-09T13:18:39+05:30'
 draft: false
 title: 'DAO: The Backbone of Offline-First Apps (#OF05)'
 tags: ["Room", "Android", "Offline-First-App"]
+aliases: ["/posts/upgrading-your-app-to-offline-first-with-room-part-5/"]
 categories: ["Android", "KMP"]
 ---
 
-In our [previous article](https://md.eknath.dev/posts/upgrading-your-app-to-offline-first-with-room-part-4/), we covered **Entities** in Room. Now, let’s explore **DAOs (Data Access Objects)** – the bridge between your app and the database. DAOs allow you to execute queries that allow is to insert, update, and delete records efficiently and thats exactly what we are going to explore today.
+In our [previous article]({{< relref "/posts/offline-first-series/upgrading-your-app-to-offline-first-with-room-part-4/" >}}), we covered **Entities** in Room. Now, let’s explore **DAOs (Data Access Objects)** – the bridge between your app and the database. DAOs allow you to execute queries that allow is to insert, update, and delete records efficiently and thats exactly what we are going to explore today.
 
 ---
 
@@ -236,7 +237,7 @@ Feel free to connect with me on:
 🌍 **[Website](https://eknath.dev)**   
 💫 **[LinkedIn-Post for comments and feedbacks](https://www.linkedin.com/posts/eganathan_offlinefirstandroid-offlinefirst-android-activity-7294912159627546624-TG77?utm_source=share&utm_medium=member_desktop&rcm=ACoAABYcOpgBgvDfy-0uUjfX0HTNqzzLfKZQAQU)** 
 
-🔖 [Previous Article in this Series](https://md.eknath.dev/posts/upgrading-your-app-to-offline-first-with-room-part-4/)
+🔖 [Previous Article in this Series]({{< relref "/posts/offline-first-series/upgrading-your-app-to-offline-first-with-room-part-4/" >}})
 🚀 **Stay tuned for Part 6!** 🚀 
 
-🔖 [Next Article in this Series](https://md.eknath.dev/posts/upgrading-your-app-to-offline-first-with-room-part-5/)
+🔖 [Next Article in this Series]({{< relref "/posts/offline-first-series/upgrading-your-app-to-offline-first-with-room-part-6/" >}})

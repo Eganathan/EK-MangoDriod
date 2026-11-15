@@ -3,6 +3,7 @@ date: '2025-02-10T10:02:29+05:30'
 draft: false
 title: 'Setting-up Room Library and its dependencies(#OF02)'
 tags: ["Room","Android","Offline-First-App"]
+aliases: ["/posts/upgrading-your-app-to-offline-first-with-room-part-2/"]
 categories: ["Android","KMP"]
 ---
 
@@ -146,6 +147,6 @@ Feel free to connect with me on:
 🌍 **[Website](https://eknath.dev)**       
 💫 **[LinkedIn-Post for comments and feedbacks](https://www.linkedin.com/posts/eganathan_offlinefirstandroid-offlinefirst-android-activity-7294912159627546624-TG77?utm_source=share&utm_medium=member_desktop&rcm=ACoAABYcOpgBgvDfy-0uUjfX0HTNqzzLfKZQAQU)** 
 
-🔖 [Previous Article in this Series](https://md.eknath.dev/posts/upgrading-your-app-to-offline-first-with-room-part-1/)
+🔖 [Previous Article in this Series]({{< relref "/posts/offline-first-series/upgrading-your-app-to-offline-first-with-room-part-1/" >}})
 
-🔖 [Next Article in this Series](https://md.eknath.dev/posts/upgrading-your-app-to-offline-first-with-room-part-3/)
+🔖 [Next Article in this Series]({{< relref "/posts/offline-first-series/upgrading-your-app-to-offline-first-with-room-part-3/" >}})

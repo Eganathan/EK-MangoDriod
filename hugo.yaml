@@ -40,7 +40,7 @@ params:
   keywords: [Blog, Android, Kotlin,Zoho,Eganathan,Google, Tech, Software Development]
   homeInfoParams:
     Title: Hi there 👋
-    Content: Welcome to MangoDriod, my personal tech blog. I am Eknath, a software developer and a tech enthusiast. I write about software development, tech, and other things that interest me, the thoughts are purely mine but the articles may be written by AI tools, i consider these as a personal note for me hence i publish them here. I hope you find something useful here. Feel free to reach out to me on social media or directly via email [mail@eknath.dev]("emailto:mail@eknath.dev").
+    Content: Welcome to MangoDriod, my personal tech blog. I am Eknath, a software developer and a tech enthusiast. I write about software development, tech, and other things that interest me, the thoughts are purely mine but the articles may be written by AI tools, i consider these as a personal note for me hence i publish them here. I hope you find something useful here. Feel free to reach out to me on social media or directly via email [mail@eknath.dev](mailto:mail@eknath.dev).
 
   socialIcons:
     - name: "X"
@@ -48,7 +48,7 @@ params:
     - name: "Github"
       url: "https://github.com/Eganathan"
     - name: "Linkedin"
-      url: "http://linkedin.com/in/eganathan/"
+      url: "https://linkedin.com/in/eganathan/"
     - name: "Socials"
       url: "https://eknath.dev/"
 
@@ -74,9 +74,9 @@ outputs:
   - RSS
   - JSON # necessary for search
 
-analytics:
-  google:
-    SiteVerificationTag: "G-MVDW52KZVB"
+services:
+  googleAnalytics:
+    id: "G-MVDW52KZVB"
 
 markup:
   goldmark:

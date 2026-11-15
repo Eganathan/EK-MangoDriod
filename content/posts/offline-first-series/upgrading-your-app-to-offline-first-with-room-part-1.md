@@ -3,6 +3,7 @@ date: '2025-02-09T09:23:57+05:30'
 draft: false
 title: 'Upgrading Your App to Offline First With Room (#OF01)'
 tags: ["Room","Android","Offline-First-App"]
+aliases: ["/posts/upgrading-your-app-to-offline-first-with-room-part-1/"]
 categories: ["Android","KMP"]
 ---
 ## Why Should You Care?
@@ -156,4 +157,4 @@ Feel free to connect with me on:
 💫 **[LinkedIn-Post for comments and feedbacks](https://www.linkedin.com/posts/eganathan_offlinefirstandroid-offlinefirst-android-activity-7294912159627546624-TG77?utm_source=share&utm_medium=member_desktop&rcm=ACoAABYcOpgBgvDfy-0uUjfX0HTNqzzLfKZQAQU)**
 
 
-🔖 [Next Article in this Series](https://md.eknath.dev/posts/upgrading-your-app-to-offline-first-with-room-part-2/)
+🔖 [Next Article in this Series]({{< relref "/posts/offline-first-series/upgrading-your-app-to-offline-first-with-room-part-2/" >}})

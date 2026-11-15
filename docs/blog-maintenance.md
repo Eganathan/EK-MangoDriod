@@ -1,11 +1,6 @@
----
-title: "Blog Help & Quick Reference"
-date: 2026-08-15
-draft: false
-description: "Personal reference for managing this Hugo blog — creating posts, pages, front matter, and common commands."
-ShowToc: true
-TocOpen: true
----
+# Blog Help & Quick Reference
+
+Personal maintenance reference. This file is outside `content/` and is not published.
 
 ## Project Structure
 
@@ -22,8 +17,8 @@ mangoDriod/
 │   │   ├── shell/
 │   │   └── software-development/
 │   ├── archives.md     ← special page (layout: archives)
-│   ├── search.md       ← special page (layout: search)
-│   └── doc.md          ← this file
+│   └── search.md       ← special page (layout: search)
+├── docs/blog-maintenance.md ← this file (not published)
 ├── archetypes/
 │   └── default.md      ← template used by `hugo new`
 ├── static/             ← images, files served as-is
@@ -271,3 +266,7 @@ categories: ["default"]
 tags: ["default","default1"]
 ---
 ```
+
+## Analytics and Search Console
+
+Google Analytics uses `services.googleAnalytics.id` in `hugo.yaml` and Hugo’s built-in template. For Search Console HTML verification, add the actual verification token under `params.analytics.google.SiteVerificationTag`; a GA measurement ID is not a verification token.

@@ -3,10 +3,11 @@ date: '2025-03-02T15:39:05+05:30'
 draft: false
 title: 'Room Entity and its intricacies (#OF04)'
 tags: ["Room","Android","Offline-First-App"]
+aliases: ["/posts/upgrading-your-app-to-offline-first-with-room-part-4/"]
 categories: ["Android","KMP"]
 ---
 
-In our [previous article](https://md.eknath.dev/posts/upgrading-your-app-to-offline-first-with-room-part-3/), we explored the key components of Room. Now, let’s take a deep dive into Room Entities, their importance, and the various ways to customize them.
+In our [previous article]({{< relref "/posts/offline-first-series/upgrading-your-app-to-offline-first-with-room-part-3/" >}}), we explored the key components of Room. Now, let’s take a deep dive into Room Entities, their importance, and the various ways to customize them.
 
 **Entities** are the foundation of Room—they define how your data is stored in the database. Properly structuring your entity ensures efficient querying, maintainability, and scalability. Let's break it down! 🛠️
 
@@ -322,7 +323,7 @@ Feel free to connect with me on:
 🌍 **[Website](https://eknath.dev)**   
 💫 **[LinkedIn-Post for comments and feedbacks](https://www.linkedin.com/posts/eganathan_offlinefirstandroid-offlinefirst-android-activity-7294912159627546624-TG77?utm_source=share&utm_medium=member_desktop&rcm=ACoAABYcOpgBgvDfy-0uUjfX0HTNqzzLfKZQAQU)** 
 
-🔖 [Previous Article in this Series](https://md.eknath.dev/posts/upgrading-your-app-to-offline-first-with-room-part-3/) 
+🔖 [Previous Article in this Series]({{< relref "/posts/offline-first-series/upgrading-your-app-to-offline-first-with-room-part-3/" >}})
 🚀 **Stay tuned for Part 5!** 🚀 
 
-🔖 [Next Article in this Series](https://md.eknath.dev/posts/upgrading-your-app-to-offline-first-with-room-part-5/)
+🔖 [Next Article in this Series]({{< relref "/posts/offline-first-series/upgrading-your-app-to-offline-first-with-room-part-5/" >}})
