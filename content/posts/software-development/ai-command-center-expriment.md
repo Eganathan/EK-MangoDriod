@@ -3,6 +3,9 @@ date: '2026-04-26T10:25:15+05:30'
 title: 'AI Command Center to manage multiple projects [Expriment]'
 categories: ["software-development", "AI"]
 tags: ['software-development', 'ai', 'tools', 'productivity', 'claude', 'llm']
+cover:
+  image: "/img/post-covers/ai-command-center.webp"
+  alt: "Several intricate paths converging around a quiet central hub."
 ---
 
 a team of 20+ handed over a project to our team of 5. i ended up owning all the native clients: iOS, Android, Windows by mostly bymyself. There are multiple repos, multiple languages and the hardship of understanding thier 7 year codebase.

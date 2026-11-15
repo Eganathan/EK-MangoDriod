@@ -1,0 +1,55 @@
+/* Keep cover art secondary to the writing throughout PaperMod. */
+.post-entry:has(> .entry-cover) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 152px;
+    column-gap: 20px;
+    align-content: start;
+}
+
+.post-entry > .entry-cover {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+    align-self: center;
+    margin: 0;
+}
+
+.post-entry:has(> .entry-cover) > .entry-header,
+.post-entry:has(> .entry-cover) > .entry-content,
+.post-entry:has(> .entry-cover) > .entry-footer {
+    grid-column: 1;
+}
+
+.post-entry .entry-cover img {
+    width: 100%;
+    height: auto;
+}
+
+.post-single > .entry-cover {
+    max-width: 360px;
+    margin: 20px auto;
+}
+
+.post-single > .entry-cover img {
+    width: 100%;
+    height: auto;
+}
+
+.post-single > .entry-cover figcaption {
+    font-size: 0.8em;
+}
+
+@media (max-width: 600px) {
+    .post-entry:has(> .entry-cover) {
+        grid-template-columns: minmax(0, 1fr) 88px;
+        column-gap: 12px;
+    }
+
+    .post-entry > .entry-cover {
+        grid-row: 1 / span 2;
+        align-self: start;
+    }
+
+    .post-entry:has(> .entry-cover) > .entry-footer {
+        grid-column: 1 / -1;
+    }
+}

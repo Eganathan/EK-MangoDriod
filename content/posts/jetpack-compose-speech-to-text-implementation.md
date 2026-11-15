@@ -3,6 +3,9 @@ date: '2026-02-12T21:30:00+05:30'
 title: 'Building a Reusable Speech-to-Text Component in Jetpack Compose'
 categories: ["Android", "Jetpack Compose"]
 tags: ["Android", "Jetpack Compose", "Speech Recognition", "Kotlin"]
+cover:
+  image: "/img/post-covers/speech-to-text.webp"
+  alt: "Soft rhythmic waves resolving into an orderly arrangement of small forms."
 ---
 
 ## TL;DR - Why You Should Add Voice Input

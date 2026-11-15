@@ -3,6 +3,9 @@ date: '2026-02-17T12:00:00+05:30'
 title: 'Visualizing Ideas with Claude: Setting Up the Official Draw.io MCP Server'
 categories: ["AI/ML", "AI-Tools"]
 tags: ["AI", "Claude", "Tools", "MCP", "Visualization", "Draw.io"]
+cover:
+  image: "/img/post-covers/visualizing-ideas.webp"
+  alt: "Loose threads becoming connected geometric forms across translucent layers."
 ---
 
 ## TL;DR - Quick Setup

@@ -32,6 +32,12 @@ enableGitInfo: true
 
 params:
   env: production
+  assets:
+    favicon: "/favicon.svg?v=3"
+    favicon16x16: "/favicon-16x16.png?v=3"
+    favicon32x32: "/favicon-32x32.png?v=3"
+    apple_touch_icon: "/apple-touch-icon.png?v=3"
+    safari_pinned_tab: "/safari-pinned-tab.svg?v=3"
   mainSections: ["posts"]
   ShowLastMod: true
   defaultTheme: auto 

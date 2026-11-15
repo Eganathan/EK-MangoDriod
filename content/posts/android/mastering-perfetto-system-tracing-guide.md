@@ -3,6 +3,9 @@ date: '2026-09-01T15:10:00+05:30'
 title: 'A Practical Guide to Google Perfetto: Why, Setup, Recording, and Deep Trace Analysis'
 categories: ["Android", "Performance"]
 tags: ["Android", "Perfetto", "Performance", "Profiling", "Systrace", "Kotlin", "Trace Processor", "DevTools"]
+cover:
+  image: "/img/post-covers/perfetto-tracing.webp"
+  alt: "Parallel layered paths and glowing pulses revealing a congested crossing."
 ---
 
 If you have ever spent hours debugging a mysterious UI frame drop, an unpredictable app startup delay, or high CPU utilization, you know that log statements and simple timers only tell half the story. 

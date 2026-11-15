@@ -3,6 +3,9 @@ date: '2026-03-07T21:47:13+05:30'
 title: 'To or Not to Use AI Tools - A Self Reflection'
 categories: ["AI/ML","Thoughts"]
 tags: ["AI","reflections"]
+cover:
+  image: "/img/post-covers/choosing-ai-tools.webp"
+  alt: "Two branching paths weaving around a balanced sculptural form."
 ---
 
 This is more of a self-reflection than some AI-generated slop I wish to shove in your face. Less than 5% of my friend circle has enough patience to read an article, let alone debate the topic. I’m trying to spend more time around people who have clarity on these topics. Thankfully, at work I was blessed with a friend who shares and discusses these ideas. I mostly find myself defending the values and lessons shared in those articles (Thanks Aditya!). One such article is the catalyst for these thoughts.

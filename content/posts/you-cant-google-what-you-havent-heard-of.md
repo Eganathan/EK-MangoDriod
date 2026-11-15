@@ -7,6 +7,9 @@ categories: ["thoughts", "engineering", "community", "mindset"]
 tags: ["Continuous Learning", "Software Engineering", "Developer Community", "Philosophy", "Growth Mindset"]
 showToc: true
 TocOpen: false
+cover:
+  image: "/img/post-covers/discovering-the-unknown.webp"
+  alt: "An illuminated path revealing new islands beyond a familiar landscape."
 ---
 
 > *"He who knows not, and knows not that he knows not, is a fool; shun him.*  

@@ -4,6 +4,9 @@ title: "Decluttering, in the Age of Abundance of Information: A Deeper Self-Refl
 description: "Exploring the cognitive weight of infinite digital noise, the illusion of consumption, and a personal framework for reclaiming mental clarity, true depth, and genuine confidence."
 categories: ["thoughts", "mindset", "productivity"]
 tags: ["Decluttering", "Self-Reflection", "Digital Minimalism", "Focus", "Intentional Living"]
+cover:
+  image: "/img/post-covers/decluttering-information.webp"
+  alt: "Scattered paper-like fragments settling into a few calm, spacious forms."
 ---
 
 > "We are drowning in information, while starving for wisdom."  
