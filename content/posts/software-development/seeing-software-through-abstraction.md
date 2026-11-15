@@ -1,7 +1,7 @@
 ---
 title: "Seeing Software Through Abstraction"
 date: 2026-11-15T12:00:00+05:30
-draft: true
+draft: false
 categories: ["software-development"]
 tags: ["abstraction", "learning", "software-architecture", "experiments"]
 description: "A reflection on zooming out from technologies to responsibilities, and bringing our own experience and care to what we build."
