@@ -5,6 +5,9 @@ categories: ["software-development"]
 tags: ["abstraction", "rest-api", "backend", "software-architecture", "graphql", "grpc", "nocoderest"]
 description: "Every new project starts with the same exhausting plumbing. What if we mapped the protocol landscape, embraced REST's hierarchical clarity, and built an engine where a million apps are just a prompt away?"
 ShowToc: true
+cover:
+  image: "/img/post-covers/why-backends-from-scratch.webp"
+  alt: "Modular interlocking architectural blocks and translucent layers connected by streamlined glowing conduits on a dark background."
 ---
 
 In my previous post, [Seeing Software Through Abstraction]({{< relref "/posts/software-development/seeing-software-through-abstraction" >}}), I stepped back from frameworks and languages to look at the responsibilities underneath them.
