@@ -46,7 +46,7 @@ params:
   mainSections: ["posts"]
   rssSections: ["posts"]
   ShowLastMod: true
-  defaultTheme: light
+  defaultTheme: dark
   disableThemeToggle: true # shared header/JS owns theme switching
   hideFooter: true # shared footer supplied by extend_footer
   title: MangoDriod-A personal Tech Blog of Eknath
