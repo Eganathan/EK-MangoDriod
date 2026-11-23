@@ -26,6 +26,10 @@ menu:
       name: Resources
       url: /resources/
       weight: 5
+    - identifier: "rss"
+      name: RSS
+      url: /index.xml
+      weight: 6
       
 
 enableGitInfo: true
@@ -39,6 +43,7 @@ params:
     apple_touch_icon: "/apple-touch-icon.png?v=3"
     safari_pinned_tab: "/safari-pinned-tab.svg?v=3"
   mainSections: ["posts"]
+  rssSections: ["posts"]
   ShowLastMod: true
   defaultTheme: auto 
   title: MangoDriod-A personal Tech Blog of Eknath
@@ -79,8 +84,13 @@ outputs:
   - HTML
   - RSS
   - JSON # necessary for search
+  section:
+  - HTML
+  - RSS
 
 services:
+  rss:
+    limit: -1
   googleAnalytics:
     id: "G-MVDW52KZVB"
 
