@@ -1,0 +1,6 @@
+<article class="first-entry home-info">
+  <p class="notebook-role">{{ .Site.Data.profile.role }}</p>
+  <header class="entry-header"><h1>Field notes.</h1></header>
+  <div class="entry-content"><p>{{ .Site.Data.profile.blogIntroduction }}</p></div>
+  <footer class="entry-footer">{{ partial "social_icons.html" (dict "align" "left") }}</footer>
+</article>

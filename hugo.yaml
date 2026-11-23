@@ -30,11 +30,12 @@ menu:
       name: RSS
       url: /index.xml
       weight: 6
-      
+
 
 enableGitInfo: true
 
 params:
+  author: "Eganathan R (Eknath)"
   env: production
   assets:
     favicon: "/favicon.svg?v=3"
@@ -45,13 +46,15 @@ params:
   mainSections: ["posts"]
   rssSections: ["posts"]
   ShowLastMod: true
-  defaultTheme: auto 
+  defaultTheme: light
+  disableThemeToggle: true # shared header/JS owns theme switching
+  hideFooter: true # shared footer supplied by extend_footer
   title: MangoDriod-A personal Tech Blog of Eknath
   description: "I write about Software-Development,Kotlin, Compose, Android and everything that interests me."
   keywords: [Blog, Android, Kotlin,Zoho,Eganathan,Google, Tech, Software Development]
   homeInfoParams:
-    Title: Hi there 👋
-    Content: Welcome to MangoDriod, my personal tech blog. I am Eknath, a software developer and a tech enthusiast. I write about software development, tech, and other things that interest me, the thoughts are purely mine but the articles may be written by AI tools, i consider these as a personal note for me hence i publish them here. I hope you find something useful here. Feel free to reach out to me on social media or directly via email [mail@eknath.dev](mailto:mail@eknath.dev).
+    Title: Field notes.
+    Content: "MangoDriod is where I think through software, systems, and the changing practice of engineering. I write about architecture, multiplatform development, and my experiments with AI-assisted workflows—including the decisions, trade-offs, and unfinished questions behind them."
 
   socialIcons:
     - name: "X"
@@ -65,10 +68,10 @@ params:
 
   ShowCodeCopyButtons: true
   comments: true
-  
+
   ShowShareButtons: true
   ShowReadingTime: true
-  
+
   ShowToc: true
   TocOpen: false
 
@@ -78,12 +81,13 @@ params:
 
   ShowFullTextinRSS: true
   ShowRssButtonInSectionTermList: true
-  
+
 outputs:
   home:
   - HTML
   - RSS
   - JSON # necessary for search
+  - RECENT
   section:
   - HTML
   - RSS
@@ -98,3 +102,10 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+outputFormats:
+  RECENT:
+    mediaType: application/json
+    baseName: recent
+    isPlainText: true
+    notAlternative: true

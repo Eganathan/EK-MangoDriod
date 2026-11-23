@@ -4,3 +4,19 @@
 <link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ $.Site.Title }}">
   {{- end -}}
 {{- end -}}
+
+<script>
+  document.documentElement.dataset.themeAdapter = 'papermod';
+  document.documentElement.dataset.theme = 'light';
+  try {
+    const saved = localStorage.getItem('ek-theme') || localStorage.getItem('pref-theme');
+    if (saved === 'light' || saved === 'dark') document.documentElement.dataset.theme = saved;
+  } catch {}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ "css/ek-tokens.css" | relURL }}">
+<link rel="stylesheet" href="{{ "css/ek-theme.css" | relURL }}">
+<link rel="stylesheet" href="{{ "css/blog.css" | relURL }}">
+<script src="{{ "js/ek-theme.js" | relURL }}" defer></script>

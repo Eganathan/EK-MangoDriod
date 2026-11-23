@@ -1,0 +1,26 @@
+{
+  "name": "Eganathan R",
+  "nickname": "Eknath",
+  "role": "Software Engineer at Zoho · Mobile & Multiplatform",
+  "jobTitle": "Software Engineer",
+  "organisation": "Zoho",
+  "headline": "Software Engineer at Zoho | Mobile & Multiplatform Systems | Building Products & AI-Assisted Workflows | KUG Chennai Core Team | DevFest Speaker",
+  "tagline": "Understand the problem. Build what helps.",
+  "shortBio": "I build practical software and AI-assisted workflows, taking ideas from understanding the problem to delivering a useful solution. My foundation is mobile and multiplatform engineering; my curiosity follows the whole system.",
+  "pageTitle": "Eganathan R (Eknath) · Software Engineer & Builder",
+  "metaDescription": "Software engineer at Zoho, working across mobile and multiplatform systems. Building practical tools and AI-assisted workflows. KUG Chennai core team and DevFest speaker.",
+  "interests": [
+    "Software architecture",
+    "Product engineering",
+    "Kotlin Multiplatform",
+    "Mobile and desktop systems",
+    "AI-assisted workflows",
+    "Developer automation",
+    "KUG Chennai community",
+    "Learning in public"
+  ],
+  "linkedin": "https://www.linkedin.com/in/eganathan/",
+  "community": "KUG Chennai core team & volunteer",
+  "speaking": "DevFest speaker",
+  "blogIntroduction": "MangoDriod is where I think through software, systems, and the changing practice of engineering. I write about architecture, multiplatform development, and my experiments with AI-assisted workflows—including the decisions, trade-offs, and unfinished questions behind them."
+}
