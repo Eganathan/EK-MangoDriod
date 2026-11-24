@@ -1,3 +1,4 @@
+enableRobotsTXT: true
 baseURL: "https://md.eknath.dev"
 languageCode: en-us
 title: MangoDriod
